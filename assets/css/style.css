@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* adds color to body */
 body {
     background-color: #d9dcd6;
 }
 
+/* sets font backround color and text color in the header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +17,19 @@ body {
     color: #ffffff;
 }
 
+/* setting font size of buisness name */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+
+/* setting font color in the header */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* positions and sets font for the nav */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* sets list style */
 .header nav ul {
     list-style-type: none;
 }
 
+/* sets formatting for the list items */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* set the link color */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* set font size in the p tags */
 p {
     font-size: 16px;
 }
 
+/* sets size, position and content of main image */ 
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* positions the immage within the main content of the page*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* positions the immage within the main content of the page*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* sets the size for the main page content*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* sets styling for the aside */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,22 +101,26 @@ p {
     background-color: #2589bd;
 }
 
+/* sets color and bottom margin. These three are comnined because they use the same styling */
 .benefit-lead, .benefit-brand, .benefit-cost  {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* sets margin and text alignment. These three are comnined because they use the same styling */
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* sets margin and limit to maximum width. These are combined using the same styling */
 .benefit-lead img, .benefit-brand img, .benefit-cost img  {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* sets size, layout, font, backround color and text color. These are combined because they are using the same styling*/
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -111,15 +130,18 @@ p {
     color: #ffffff;
 }
 
+/* sets maximum height for images. They are combined because they are all styled the same */
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
+/* sets font and layout. These are combined becuase they use the same styling*/
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2  {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* sets layout, font size and font type at bottom of page */
 .footer {
     padding: 30px;
     clear: both;
@@ -127,6 +149,7 @@ p {
     text-align: center;
 }
 
+/* sets font size for the footer */
 .footer h2 {
     font-size: 20px;
 }
